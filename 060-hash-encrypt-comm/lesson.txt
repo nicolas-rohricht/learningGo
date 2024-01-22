@@ -1,0 +1,70 @@
+Hash, encryption and communication
+
+Hash 
+  A has algorithm is a mathematical function that takes in a variable-sized input
+  such as a file or a message, and produces a fixed-size output, know as a hash or
+  digest. The output is a unique representation of the input data, and even a small
+  change tot he input data will produce a completely different hash value. Hash
+  algorithms are used in a variety of applications such as data integrity checks,
+  message authentication, password storage, and digital signatures. For example,
+  when a user sets a password, the password is hashed and stored in a database.
+  When the user logs in, the password they enter is hashed again and compared to
+  the stored hash to verify their identity. Hash algorithms are designed to be 
+  one-way functions, meaning it is extremely difficult (if not impossible) to 
+  reconstruct the original input data from the hash value. This makes them useful
+  for securely storing passwords or sensitive information. Common examples of
+  hash algorithms include MD5, SHA-1, SHA-2, and SHA-3. However, it im
+  important to note that some of these algotithms, particularly MD5 and SHA-1, are
+  considered insecure and should not be used for new applications.
+
+Encryption
+  - Synchronous / symmetric encryption
+    * singlekey
+  - asynchronous encryption
+    * public / private key
+  
+  Synchronous encryption and asynchronous encryption are two different 
+  approaches to encrypting data. Synchronous encryption, also known as
+  symmetric encryption, uses a single key to both encrypt and decrypt data. This
+  means that the same key is used to encrypt the data and to decrypt it. The
+  encryption and decryption processes are fast and efficient, making Synchronous
+  encryption a popular choice for encrypting large amounts of data. Examples of
+  synchronous encryption algorithms incluse Advanced Encryption Standad (AES)
+  and Data Encryption Standard (DES). Asynchronous encryption, also known as 
+  public-key encryption, uses a pair of keys: a public key and a private key. The
+  public key is used to encrypt the data, while the private key is used to decrypt it.
+  As a result, anyone can encrypt the data unsing the public key, but only the holder
+  of the private key can decrypt it. asynchronous encryption is often used for 
+  secure communication over insecure channels, such as the internet. Examples of
+  asynchronous encryption algorithms include RSA and Elluptic Curve 
+  Cryptography (ECC). Both synchronous and asynchronous encryption have their
+  advantages and disadvantes, and the coice of which to use depends on the
+  specific needs of the application. Synchronous encryption is tippically faster and
+  more efficient for encrypting large amounts of data, while asynchronous
+  encryption provides better security for secure communication over insecure
+  channels.
+
+Communication
+  * simplex, half-duplex, full-duplex
+  * simplex, half-duplex and full-duplex are terms used to describe different types of
+  communication modes in telecommunications.
+  
+  * Simplex Communication: in simplex communication, information flows in only
+  one direction. This means that the sender can transmit data to the receiver, but 
+  the receiver cannot send data back to the sender. Examples of simplex
+  communication include TV broadcasting and most remove control devices.
+
+  * Half-Duplex Communication: In half-duplex communication information can
+  flow in both directions, but not at the same time. When one party is transmitting
+  data, the other party must wait for the transmission to end before sending their
+  own data. Examples of half-duplex communication include walkie-talkies and CB 
+  radios.
+
+  * Full-Duplex Communication: In full-duplex communication, information can flow
+  in both directions simultaneously. This means that both the sender and receiver
+  can send and receive data at the same time. Examples of full-duplex
+  communication include telephone conversations, video conferencing, and internet chat.
+
+  - In summary, simplex communication is one-wa, half duplex communication is 
+  two-way but not at the same time, and full-duplex communication is two-way and
+  simultaneous.
